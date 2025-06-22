@@ -13,9 +13,11 @@
 }
 
 /* hiding git branch button on bottom right */
-.container.bottom-right{
-    display: none !important;
-} 
+.floating.container.bottom-right,
+div[class~="bottom-right"],
+div[class*="bottom-right"] {
+  display: none !important;
+}
 
 /* Hide Furo sidebar ad placement container */
 #furo-sidebar-ad-placement {
