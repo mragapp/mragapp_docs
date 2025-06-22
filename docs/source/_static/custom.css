@@ -6,3 +6,11 @@
 .sidebar-logo{
     display: inline;
 }
+
+.view-this-page{
+    display: none !important;
+}
+
+div floating.container.bottom-right{
+    display: none !important;
+} 
