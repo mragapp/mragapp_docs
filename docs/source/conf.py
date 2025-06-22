@@ -17,4 +17,4 @@ html_theme_options = {
 }
 html_context = {
 }
-root_doc = 'home'
+root_doc = 'index'
