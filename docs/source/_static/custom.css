@@ -1,0 +1,8 @@
+/* Hide project name text in Furo sidebar header */
+.sidebar-brand-text {
+    display: none !important;
+  }
+
+.sidebar-logo{
+    display: inline;
+}
