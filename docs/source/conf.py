@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'MRAG: No-Code RAG Platform'
+project = 'MRAG'
 copyright = '2025, KSV Muralidhar'
 author = 'KSV Muralidhar'
 
@@ -23,5 +23,5 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+html_theme = 'furo'
+root_doc = 'home'
