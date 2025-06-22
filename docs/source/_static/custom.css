@@ -7,10 +7,17 @@
     display: inline;
 }
 
+/* Hide view page icon on top right beside dark theme icon */
 .view-this-page{
     display: none !important;
 }
 
+/* hiding git branch button on bottom right */
 .floating.container.bottom-right{
     display: none !important;
 } 
+
+/* Hide Furo sidebar ad placement container */
+#furo-sidebar-ad-placement {
+    display: none !important;
+  }
