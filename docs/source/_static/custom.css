@@ -13,7 +13,7 @@
 }
 
 /* hiding git branch button on bottom right */
-.floating.container.bottom-right{
+.container.bottom-right{
     display: none !important;
 } 
 
