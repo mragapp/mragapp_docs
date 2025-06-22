@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'My Project'
-copyright = '2025, Your Name'
-author = 'Your Name'
+project = 'MRAG: No-Code RAG Platform'
+copyright = '2025, KSV Muralidhar'
+author = 'KSV Muralidhar'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
