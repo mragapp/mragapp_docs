@@ -40,7 +40,6 @@ Know more about KSV Muralidhar at `ksvmuralidhar.in`_.
    :caption: Contents
    :hidden:
    
-   
    Getting Started <getting_started>
    
 
