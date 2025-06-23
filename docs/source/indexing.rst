@@ -122,7 +122,14 @@ Below are the details of the document splitters.
 
 .. raw:: html
 
-   <h4 style="padding-top:7px;padding-bottom:7px;">Token Splitter</h4>
+   <br>
+
+
+.. .. raw:: html
+
+..    <h4 style="padding-top:7px;padding-bottom:7px;">Token Splitter</h4>
+Token Splitter
+^^^^^^^^^^^^^^^^
 
 
 .. image:: images/7_token_splitter.png
@@ -157,14 +164,83 @@ This component has multiple parameters that are described below.
 .. raw:: html
 
    <span class="param-highlight">Separator</span>
-   <p>Separator enables a user to specify the delimiter to use for splittng the tokens.</p>
+   <p>Separator enables a user to specify the delimiter to use for splitting the tokens.</p>
 
 
 .. raw:: html
 
    <span class="param-highlight">Include Filename</span>
    <p>Include Filename enables a user to choose whether to include the filename in the chunk metadata. 
-   Including the filename in the chunk improves retriver preformance and LLM response.</p>
+   Including the filename in the chunk improves retriever preformance and LLM response.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Metadata Schema</span>
+   <p>Metadata Schema dropdown list enables a user to choose the metadata schema to extract metadata from the document/chunk. 
+   Including metadata in a chunk enables self query. Only a single schema can be selected in a splitter component.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Level Metadata</span>
+   <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
+   from each chunk independently.</p>
+
+
+.. raw:: html
+
+   <br>
+
+
+.. .. raw:: html
+
+..    <h4 style="padding-top:7px;padding-bottom:7px;">Sentence Splitter</h4>
+
+Sentence Splitter
+^^^^^^^^^^^^^^^^^^
+
+
+.. image:: images/8_sentence_splitter.png
+   :alt: Sentence Splitter
+   :align: center
+
+
+**Sentence Splitter** splits a document into chunks while preserving the sentence. 
+This component has multiple parameters that are described below. 
+
+.. raw:: html
+
+   <span class="param-highlight">Select Files</span>
+   <p>Select Files dropdown list enables a user to select the documents to which the splitter must be applied to. 
+   A user can select multiple files in the dropdown list.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Size</span>
+   <p>Chunk Size enables a user to specify the maximum number of tokens to be present in a single chunk.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Overlap</span>
+   <p>Chunk Overlap enables a user to specify the number of tokens 
+   at the end of the previous chunk to be appended to the start of the current chunk. 
+   This ensures that the text is not split abruptly resulting in context loss.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Separator</span>
+   <p>Separator enables a user to specify the delimiter to use for splitting the document.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Include Filename</span>
+   <p>Include Filename enables a user to choose whether to include the filename in the chunk metadata. 
+   Including the filename in the chunk improves retriever preformance and LLM response.</p>
 
 
 .. raw:: html
