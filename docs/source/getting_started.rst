@@ -4,9 +4,9 @@ Getting Started
 This section explains the process to get started with MRAG application. 
 The process of creating an account and logging into the MRAG application will be explained here.
 
-===================
+=====================
 Creating an account
-===================
+=====================
 .. raw:: html
 
    <br>
@@ -29,9 +29,9 @@ In the Create Account page, enter the username and password of your choice.
 - Username and password cannot contain numbers and special characters barring hypen.
 
 
-===================
+============================
 Logging into your account
-===================
+============================
 .. raw:: html
 
    <br>

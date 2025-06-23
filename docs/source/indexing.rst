@@ -124,7 +124,6 @@ Below are the details of the document splitters.
 
    <br>
 
-
 .. .. raw:: html
 
 ..    <h4 style="padding-top:7px;padding-bottom:7px;">Token Splitter</h4>
@@ -255,3 +254,63 @@ This component has multiple parameters that are described below.
    <span class="param-highlight">Chunk Level Metadata</span>
    <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
    from each chunk independently.</p>
+
+
+.. raw:: html
+
+   <br>
+
+
+.. .. raw:: html
+
+..    <h4 style="padding-top:7px;padding-bottom:7px;">Sentence Splitter</h4>
+
+Regex Splitter
+^^^^^^^^^^^^^^^^^^
+
+
+.. image:: images/9_regex_splitter.png
+   :alt: Regex Splitter
+   :align: center
+
+
+**Regex Splitter** splits a document into chunks based on the regular expressions provided by the user. 
+This results in smart chunking where the complete section of a document is present as a single. 
+For example, a user can split the document into chunks based on the section number (1, 1.2, 1.2.2, etc). 
+This ensures the whole section of a document is present in a single chunk.
+This component has multiple parameters that are described below. 
+
+.. raw:: html
+
+   <span class="param-highlight">Select Files</span>
+   <p>Select Files dropdown list enables a user to select the documents to which the splitter must be applied to. 
+   A user can select multiple files in the dropdown list.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Regex</span>
+   <p>Regex enables a user to specify the regular expressions to use for splitting the document. 
+   A user can specify multiple regular expressions using ~ as the delimiter.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Include Filename</span>
+   <p>Include Filename enables a user to choose whether to include the filename in the chunk metadata. 
+   Including the filename in the chunk improves retriever preformance and LLM response.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Metadata Schema</span>
+   <p>Metadata Schema dropdown list enables a user to choose the metadata schema to extract metadata from the document/chunk. 
+   Including metadata in a chunk enables self query. Only a single schema can be selected in a splitter component.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Level Metadata</span>
+   <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
+   from each chunk independently.</p>
+

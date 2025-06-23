@@ -19,16 +19,16 @@ MRAG has a drag-and-drop user interface that enables a user to build indexing pi
 with multiple settings enabling a user to even handle complex documents.
 
 
-=================
+=============================
 Can MRAG handle every case?
-=================
+=============================
 No application can satisfy all the requirements of a user, same goes with MRAG as well. While, MRAG can help a user build RAG pipelines for simple and complex use cases, 
 there might be situations where a user needs to build more complex RAG pipelines to satisfy their requirements.
 
 
-=================
+======================
 Who developed MRAG?
-=================
+======================
 **MRAG** is developed and maintained by KSV Muralidhar.
 
 Know more about KSV Muralidhar at `ksvmuralidhar.in`_.
