@@ -152,3 +152,30 @@ This component has multiple parameters that are described below.
    <p>Chunk Overlap enables a user to specify the number of tokens 
    at the end of the previous chunk to be appended to the start of the current chunk. 
    This ensures that the text is not split abruptly resulting in context loss.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Separator</span>
+   <p>Separator enables a user to specify the delimiter to use for splittng the tokens.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Include Filename</span>
+   <p>Include Filename enables a user to choose whether to include the filename in the chunk metadata. 
+   Including the filename in the chunk improves retriver preformance and LLM response.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Metadata Schema</span>
+   <p>Metadata Schema dropdown list enables a user to choose the metadata schema to extract metadata from the document/chunk. 
+   Including metadata in a chunk enables self query. Only a single schema can be selected in a splitter component.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Level Metadata</span>
+   <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
+   from each chunk independently.</p>
