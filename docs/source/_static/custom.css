@@ -28,3 +28,17 @@ div[class*="bottom-right"] {
 #furo-sidebar-ad-placement {
     display: none !important;
   }
+
+  .bordered-image {
+    border: 1px solid #555;   /* border thickness and color */
+    border-radius: 5px;       /* optional rounded corners */
+  }
+
+  .param-highlight {
+    background-color: #f0f0ff;  /* Light purple/blue */
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size:16px;
+    color: black;
+  }

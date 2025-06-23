@@ -41,5 +41,6 @@ Know more about KSV Muralidhar at `ksvmuralidhar.in`_.
    :hidden:
    
    Getting Started <getting_started>
+   Building Indexing Pipelines <indexing>
    
 
