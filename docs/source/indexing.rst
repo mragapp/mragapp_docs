@@ -314,3 +314,123 @@ This component has multiple parameters that are described below.
    <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
    from each chunk independently.</p>
 
+
+.. raw:: html
+
+   <br>
+
+
+.. .. raw:: html
+
+..    <h4 style="padding-top:7px;padding-bottom:7px;">Sentence Splitter</h4>
+
+PDF Font Splitter
+^^^^^^^^^^^^^^^^^^
+
+
+.. image:: images/10_pdf_font_splitter.png
+   :alt: PDF Font Splitter
+   :align: center
+
+
+**PDF Font Splitter** splits a document into chunks based on the combination font size, case (upper or lower) and font weight (bold or not). 
+This results in smart chunking where the complete section of a document is present as a single. 
+For example, a user can split the document into chunks based on the font style of a section title (size 18, bold and uppercase). 
+This ensures the whole section of a document is present in a single chunk.
+This component has multiple parameters that are described below. 
+
+.. raw:: html
+
+   <span class="param-highlight">Select Files</span>
+   <p>Select Files dropdown list enables a user to select the documents to which the splitter must be applied to. 
+   A user can select multiple files in the dropdown list.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Font Size</span>
+   <p>Font Size enables a user to specify the font size where a document must be split.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Is Bold</span>
+   <p>Is Bold enables a user to choose the font weight where a document must be split.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Is Uppercase</span>
+   <p>Is Uppercase enables a user to choose the case where a document must be split.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Include Filename</span>
+   <p>Include Filename enables a user to choose whether to include the filename in the chunk metadata. 
+   Including the filename in the chunk improves retriever preformance and LLM response.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Metadata Schema</span>
+   <p>Metadata Schema dropdown list enables a user to choose the metadata schema to extract metadata from the document/chunk. 
+   Including metadata in a chunk enables self query. Only a single schema can be selected in a splitter component.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Level Metadata</span>
+   <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
+   from each chunk independently.</p>
+
+
+.. raw:: html
+
+   <br>
+
+
+.. .. raw:: html
+
+..    <h4 style="padding-top:7px;padding-bottom:7px;">Sentence Splitter</h4>
+
+Dummy Splitter
+^^^^^^^^^^^^^^^^^^
+
+
+.. image:: images/11_dummy_splitter.png
+   :alt: Dummy Splitter
+   :align: center
+
+
+**Dummy Splitter** as the name suggests acts just as placeholder in cases when the whole document must be considered as a chunk.
+It is useful in cases when the document is very small or difficult to decide on the splitting strategy.
+This component has multiple parameters that are described below. 
+
+.. raw:: html
+
+   <span class="param-highlight">Select Files</span>
+   <p>Select Files dropdown list enables a user to select the documents to which the splitter must be applied to. 
+   A user can select multiple files in the dropdown list.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Include Filename</span>
+   <p>Include Filename enables a user to choose whether to include the filename in the chunk metadata. 
+   Including the filename in the chunk improves retriever preformance and LLM response.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Metadata Schema</span>
+   <p>Metadata Schema dropdown list enables a user to choose the metadata schema to extract metadata from the document/chunk. 
+   Including metadata in a chunk enables self query. Only a single schema can be selected in a splitter component.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Chunk Level Metadata</span>
+   <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
+   from each chunk independently.</p>
+
