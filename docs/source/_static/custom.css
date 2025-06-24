@@ -43,22 +43,11 @@ div[class*="bottom-right"] {
     color: black;
   }
 
- /* Reduce the left sidebar width */
+ 
+  .sidebar-drawer {
+    width: auto; 
+  }
 
-    .sidebar-drawer {
-      width: 220px; /* New sidebar width */
-    }
-  
-    .main {
-      margin-left: 20px; /* Must match sidebar width exactly */
-      margin-right: 20px; /* Must match toc-drawer width */
-    }
-
-    .content{
-        width: 100%;
-    }
-
-    .toc-drawer {
-      width: 240px; /* New right sidebar width */
-    }
-  
+  .content {
+    width: 100% !important;
+  }
