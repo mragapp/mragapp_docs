@@ -124,12 +124,9 @@ Below are the details of the document splitters.
 
    <br>
 
-.. .. raw:: html
 
-..    <h4 style="padding-top:7px;padding-bottom:7px;">Token Splitter</h4>
 Token Splitter
-^^^^^^^^^^^^^^^^
-
+^^^^^^^^^^^^^^^
 
 .. image:: images/7_token_splitter.png
    :alt: Token Splitter
@@ -433,4 +430,41 @@ This component has multiple parameters that are described below.
    <span class="param-highlight">Chunk Level Metadata</span>
    <p>Chunk Level Metadata enables a user to choose whether the metadata must be extracted from the document as a whole or 
    from each chunk independently.</p>
+
+
+========================================
+Executing the pipeline
+========================================
+
+
+.. raw:: html
+
+   <br>
+
+
+.. image:: images/12_execute_pipeline.png
+   :alt: Execute Pipeline
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+After you drag and drop the components on to the canvas and build the indexing pipeline, click the **Execute Pipeline** 
+button in the left sidebar to execute the pipeline. The pipeline will be executed as a background job. Once the job begins 
+you will be automatically redirected to the Indexing Pipelines screen. You can view the list of your Indexing Pipelines 
+and track the execution status of a pipeline by hitting the **Refresh** button. 
+
+.. raw:: html
+
+   <br>
+
+
+.. image:: images/13_pipeline_list.png
+   :alt: Pipeline List
+   :align: center
+   :class: bordered-image
+
+
 

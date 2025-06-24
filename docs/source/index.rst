@@ -42,5 +42,4 @@ Know more about KSV Muralidhar at `ksvmuralidhar.in`_.
    
    Getting Started <getting_started>
    Building Indexing Pipelines <indexing>
-   
-
+   Q&A Chatbot <qa_chatbot>
