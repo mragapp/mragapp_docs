@@ -96,3 +96,113 @@ Supports Query Enrichment
 - Enables users to enrich the query for better retrieval and LLM responses.
 - Supports query decomposition by generating sub queries to fetch answers for multiple queries in a single request.
 - Supports query cleaning and query rewriting for better retrieval and LLM response.
+
+
+======================================
+Enables Context Enrichment
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/hype.png
+   :alt: Context Enrichment
+   :align: center
+
+.. raw:: html
+
+   <br>
+
+- Enables a user to enrich the context using HyPE technique.
+- HyPE technique generates hypothetical prompts / queries using an LLM that can be answered using the information in the document / chunk. 
+- User can select the number of hypothetical queries to generate.
+- Improves retrieval quality by comparing user's query with hypothetical queries for similarity.
+
+
+======================================
+Provides Evaluation Metrics
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/metrics.png
+   :alt: Evaluation Metrics
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Enables users to evaluate the performance of the retriever and LLM responses.
+- Context relevance score helps in evaluating the retriever's performance.
+- Response hallucination score helps in evaluation the LLM response quality.
+
+
+======================================
+Provides Query Suggestions
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/query_suggestions.png
+   :alt: Query Suggestions
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Provides query suggestions to the user if a user includes HyPE in the indexing pipeline.
+- Enables user to view the query suggestions for each document separately.
+- Helps a user in getting an overview of the questions a document can answer.
+
+
+======================================
+Provides Multiple Splitters
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/splitters.png
+   :alt: Splitters
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Provides 5 splitters to chunk the documents.
+- Supports custom splitters like Regex Splitter, PDF Font Splitter and Dummy Splitter.
+- User can apply different splitter for different documents based on the document structure which ensures smart chunking.
+
+
+======================================
+Provides Metadata Extractor
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/metadata.png
+   :alt: Metadata Extractor
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Provides metadata extractor to extract metadata using regular expressions from documents.
+- Extracted metadata can be used in splitters to enable self querying.
+- Self querying enables user to filter and retrieve the documents based on metadata.
