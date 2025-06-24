@@ -17,3 +17,25 @@ Click on **Chat** menu item from the **Actions** menu of a specific pipeline as 
 .. raw:: html
 
    <br>
+
+
+============================
+Chatbot components
+============================
+.. raw:: html
+
+   <br>
+
+.. image:: images/15_chatbot_components.png
+   :alt: Chatbot Components
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+After successful registration you will be automatically redirected to the Sign In page.
+
+Enter your username and password to log in to your account. 
+

@@ -40,6 +40,7 @@ Know more about KSV Muralidhar at `ksvmuralidhar.in`_.
    :caption: Contents
    :hidden:
    
+   Features <features>
    Getting Started <getting_started>
    Building Indexing Pipelines <indexing>
    Q&A Chatbot <qa_chatbot>
