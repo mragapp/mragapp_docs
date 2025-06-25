@@ -433,6 +433,88 @@ This component has multiple parameters that are described below.
 
 
 ========================================
+Context Enrichment
+========================================
+
+
+Context Enrichment adds additional metadata to the chunks which improves the retriever preformance. 
+MRAG supports the following context enrichment techniques.
+
+
+HyPE
+^^^^^^^^^^^^^^^^^^
+
+
+.. image:: images/features/hype.png
+   :alt: HyPE
+   :align: center
+
+
+**HyPE** (Hypothetical Prompt Embedding) is a context enrichment technique that generates queries that the chunk can answer.
+The queries are generated using an LLM. These queries are then used to generate embeddings. HyPE improves retriever performance as 
+during the retrieval a user's query will be compared to the generated queries which is an apple to apple comparison 
+(We are not comparing a user's query with a large chunk of text for retrieval).
+This component has multiple parameters that are described below. 
+
+.. raw:: html
+
+   <span class="param-highlight">N Questions</span>
+   <p>Number of queries to be generated per chunk.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Include Chunk Text</span>
+   <p>Sometimes when a chunk is large, HyPE might not generate all the questions a chunk can answer. 
+   In such a case, to prevent the loss of information we can embed the whole chunk text and store into the vector store 
+   apart from the query embeddings.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Embed Per Question</span>
+   <p>If True, each generated query is embedded separately and the chunk text is added as metadata to each query. 
+   If we have 5 queries, each query is embedded separately and the metadata is added 5 times (1 time for each query) and stored in vector store.
+   If False, the generated queries are embedded together and the chunk text is added as metadata. 
+   If we have 5 queries, all the queries are embedded together and the metadata is only once (for all the queries together) and stored in vector store.
+   </p>
+
+
+========================================
+Vector Index
+========================================
+
+**Vector index** is a data store where the chunks in the documents along with their vector embeddings and metadata are stored.
+When a user asks a query, its vector embedding is computed and top-k similar chunks are retrieved from the vector index and 
+are augmented as context to the query and passed to an LLM to generate the response.
+
+
+.. image:: images/features/vector_index.png
+   :alt: Vector Index
+   :align: center
+
+
+MRAG provides Vector Index component to build an indexing pipeline. This component has multiple parameters that are described below. 
+
+.. raw:: html
+
+   <span class="param-highlight">Embedding Model</span>
+   <p>Embedding Model to use to compute the vector embeddings of the chunks.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Batch Size</span>
+   <p>Batch size of the chunks to compute vector embeddings.</p>
+
+
+.. raw:: html
+
+   <span class="param-highlight">Vector Store</span>
+   <p>Vector Store provider like ChromaDB, Pinecone.</p>
+
+
+========================================
 Executing the pipeline
 ========================================
 

@@ -137,7 +137,7 @@ Enables Context Enrichment
    <br>
 
 - Enables a user to enrich the context using HyPE technique.
-- HyPE technique generates hypothetical prompts / queries using an LLM that can be answered using the information in the document / chunk. 
+- HyPE technique generates hypothetical prompts / queries using an LLM that can be answered using the information in the chunk. 
 - User can select the number of hypothetical queries to generate.
 - Improves retrieval quality by comparing user's query with hypothetical queries for similarity.
 
@@ -228,3 +228,81 @@ Provides Metadata Extractor
 - Provides metadata extractor to extract metadata using regular expressions from documents.
 - Extracted metadata can be used in splitters to enable self querying.
 - Self querying enables user to filter and retrieve the documents based on metadata.
+
+
+======================================
+Enables Metadata Testing
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/metadata_test.png
+   :alt: Metadata Test
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Enables a user to test the metadata extraction by uploading a sample document.
+- The user can view the metadata extracted using the schema defined by the user.
+- The user can also see the raw text of the document along with the extracted metadata.
+
+
+======================================
+Provides Document Viewer
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/file_viewer.png
+   :alt: Document Viewer
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Enables a user to view the raw file content as well as the fonts in a PDF file.
+- This enables the user to decide the chinking strategy to use.
+- Aids in smart chunking strategy as per the document structure.
+
+
+======================================
+Provides Document Chunk Viewer
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/chunk_viewer.png
+   :alt: Metadata Test
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- Enables users to view the chunks before building an indexing pipeline.
+- Enables users to compare multiple splitters and choose the best one for their documents.
+- Enables users to apply multiple splitters to a document.
+
+
+======================================
+Supports Text and PDF Documents
+======================================
+
+
+- Supports text and pdf document types.
+- Users can upload the documents from their local storage.
+- Total size of documents should be less than 5MB.
+- Individual document size must be less than 1MB.
+
