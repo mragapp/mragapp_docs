@@ -5,6 +5,12 @@ Welcome to the official documentation of MRAG, a no-code platform to build RAG p
 The contents in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top-left corner.
 
 
+
+Visit the product website at `mragapp.github.io`_.
+
+.. _mragapp.github.io: https://mragapp.github.io/
+
+
 =================
 What is MRAG?
 =================
