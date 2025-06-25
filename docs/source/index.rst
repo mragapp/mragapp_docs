@@ -5,10 +5,9 @@ Welcome to the official documentation of MRAG, a no-code platform to build RAG p
 The contents in the sidebar should let you easily access the documentation for your topic of interest. You can also use the search function in the top-left corner.
 
 
+.. raw:: html
 
-Visit the product website at `mragapp.github.io`_.
-
-.. _mragapp.github.io: https://mragapp.github.io/
+   <span>Visit the product website at <a href="https://mragapp.github.io/" target="_blank">mragapp.github.io</a></span>
 
 
 =================
@@ -37,9 +36,10 @@ Who developed MRAG?
 ======================
 **MRAG** is developed and maintained by KSV Muralidhar.
 
-Know more about KSV Muralidhar at `ksvmuralidhar.in`_.
+.. raw:: html
 
-.. _ksvmuralidhar.in: https://ksvmuralidhar.in
+   <span>Know more about KSV Muralidhar at <a href="https://ksvmuralidhar.in" target="_blank">ksvmuralidhar.in</a></span>
+
 
 .. toctree::
    :maxdepth: 2
