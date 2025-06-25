@@ -4,6 +4,28 @@ Features
 MRAG application comes with lot of features to enable a user to index the documents, chat with the index documents. 
 Below are the details of the features present in MRAG application.
 
+
+======================================
+Provides Drag & Drop UI
+======================================
+
+.. raw:: html
+
+   <br>
+
+.. image:: images/features/drag_drop.png
+   :alt: Drag & Drop UI
+   :align: center
+   :class: bordered-image
+
+.. raw:: html
+
+   <br>
+
+- You can build indexing pipelines using a drag-and-drop UI.
+- Simply drag and drop the components availabe on to the canvas and connect them to build a pipeline.
+
+
 ======================================
 Provides Interactive QA Bot
 ======================================
