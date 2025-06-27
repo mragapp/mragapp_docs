@@ -50,3 +50,4 @@ Who developed MRAG?
    Getting Started <getting_started>
    Building Indexing Pipelines <indexing>
    Q&A Chatbot <qa_chatbot>
+   How-To Guide <how_to>
