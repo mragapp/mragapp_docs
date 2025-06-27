@@ -1,5 +1,5 @@
 
-project = ''
+project = 'MRAG'
 copyright = '2025, KSV Muralidhar'
 author = 'KSV Muralidhar'
 
