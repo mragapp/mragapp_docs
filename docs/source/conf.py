@@ -19,9 +19,4 @@ html_theme_options = {
 
 root_doc = 'index'
 
-html_context = {
-        'display_github': False,
-        'display_gitlab': False,
-        'display_bitbucket': False,
-        'display_version': False,
-    }
+html_context = {}
