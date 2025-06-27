@@ -12,6 +12,10 @@
     display: none !important;
 }
 
+.sidebar-search-container{
+  display: none !important;
+}
+
 /* hiding git branch button on bottom right */
 
 .container.bottom-right {
@@ -51,3 +55,4 @@ div[class*="bottom-right"] {
   .content {
     width: 100% !important;
   }
+
