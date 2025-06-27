@@ -59,8 +59,8 @@ div[class*="bottom-right"] {
 
   .video-container {
     /* padding: 2rem; */
-    background: #f8f9fa;
-    border-bottom: 1px solid var(--border-color);
+    /* background: #f8f9fa; */
+    /* border-bottom: 1px solid var(--border-color); */
     text-align: center;
 }
 
@@ -72,9 +72,12 @@ div[class*="bottom-right"] {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0 auto;
+  margin-top: 15px;
 }
 
 .video-heading{
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
