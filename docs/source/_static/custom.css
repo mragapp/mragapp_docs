@@ -81,3 +81,7 @@ div[class*="bottom-right"] {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+readthedocs-flyout {
+  display: none !important;
+}
