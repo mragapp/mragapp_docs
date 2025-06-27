@@ -15,6 +15,12 @@ html_css_files = ['custom.css']
 html_theme = 'furo'
 html_theme_options = {
 }
-html_context = {
-}
+
 root_doc = 'index'
+
+html_context = {
+        'display_github': False,
+        'display_gitlab': False,
+        'display_bitbucket': False,
+        'display_version': False,
+    }
