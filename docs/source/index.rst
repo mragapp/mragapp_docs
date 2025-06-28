@@ -51,3 +51,4 @@ Who developed MRAG?
    Building Indexing Pipelines <indexing>
    Q&A Chatbot <qa_chatbot>
    How-To Guide <how_to>
+   Technologies Used <technologies>
